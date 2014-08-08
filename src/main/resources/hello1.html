@@ -1,0 +1,18 @@
+
+
+<html>
+<select name="sourceSystemId"
+		style="min-width: 100px"> 
+		
+		
+		<#list sourceSystems?keys as
+		sourcekey>
+		
+		<#list sourceSystems[sourcekey] as
+		source>
+		
+		<option value="${sourcekey}_${source}">${source}</option> </#list>
+		 </#list>
+	
+	</select>
+	</html> 

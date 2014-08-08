@@ -1,0 +1,16 @@
+
+
+<html>
+<select name="sourceSystemId"
+		style="min-width: 100px"> 
+		
+		<#list
+		recordTypes as recordType>		
+		<#assign sourceList = recordType+"_sourceSystems">
+		
+		<#list "${recordType}_sourceSystems" as
+		sourceSystemId>
+		<option value="${sourceSystemId}">${sourceSystemId}</option> </#list>
+		 </#list>
+	</select>
+	</html> 
