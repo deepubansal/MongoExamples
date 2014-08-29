@@ -1,4 +1,4 @@
-package helloworld;
+package mongo.helloworld;
 
 import java.io.StringWriter;
 import java.util.HashMap;

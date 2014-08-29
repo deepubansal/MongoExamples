@@ -1,4 +1,4 @@
-package crud;
+package mongo.crud;
 
 import java.net.UnknownHostException;
 

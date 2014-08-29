@@ -1,4 +1,4 @@
-package schema;
+package mongo.schema;
 
 import java.net.UnknownHostException;
 
